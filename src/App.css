@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+body {
+ font-family: 'Quicksand', sans-serif;
+ font-weight: 300;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* The sidenav */
+.sideNav {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(212, 223, 247, 0.568);
+  overflow-x: hidden;
+  padding-top: 20px;
+  border:rgb(212, 223, 247,.7) solid;
+  border-radius: 1px;
+}
+
+/* Page content */
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+}
+
+/* The navigation menu links */
+.links {
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  transition: 0.3s;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.brandName {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.links:hover {
+ 
+}
+
+.house-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.brandLine {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.lines {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(87, 87, 87);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.colorChange {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(6, 180, 180);
+}
+
+.side-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.bar {
+  border: 1px solid rgb(212, 223, 247,.9);
+  width: 90%;
+}
+
+.title {
+  margin-bottom: 0px;
 }
