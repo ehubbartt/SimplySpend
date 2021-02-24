@@ -1,0 +1,7 @@
+{
+  "rent": {
+    "rentTotal": 5400,
+    "rentPaid": 540,
+    "isFullyPaid": false
+  }
+}

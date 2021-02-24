@@ -6,7 +6,7 @@ function Groceries() {
   return (
     <div className='main'>
       <h1 className='title'>Groceries</h1>
-      <div class='bar'></div>
+      <div className='bar'></div>
     </div>
   );
 }

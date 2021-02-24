@@ -25,8 +25,9 @@ function App() {
 }
 
 const Home = () => (
-  <div>
-    <h1>Home Page</h1>
+  <div className='main'>
+    <h1 className='title'>Home Page</h1>
+    <div className='bar'></div>
   </div>
 );
 

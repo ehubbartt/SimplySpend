@@ -6,7 +6,7 @@ function Tabs() {
   return (
     <div className='main'>
       <h1 className='title'>Tabs</h1>
-      <div class='bar'></div>
+      <div className='bar'></div>
     </div>
   );
 }

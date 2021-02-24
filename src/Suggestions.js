@@ -6,7 +6,7 @@ function Suggestions() {
   return (
     <div className='main'>
       <h1 className='title'>Suggestions</h1>
-      <div class='bar'></div>
+      <div className='bar'></div>
     </div>
   );
 }
